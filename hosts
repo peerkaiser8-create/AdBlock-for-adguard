@@ -1,0 +1,186 @@
+# AdGuard Filter - Facebook, Instagram, WhatsApp Blocker
+# Last Updated: 2025-10-17
+# Block Facebook, Instagram, WhatsApp and their tracking domains
+# Format: ||domain.com^
+
+# ==========================================
+# FACEBOOK - Primary Domains
+# ==========================================
+||facebook.com^
+||www.facebook.com^
+||m.facebook.com^
+||mobile.facebook.com^
+||touch.facebook.com^
+||fb.com^
+||www.fb.com^
+||m.fb.com^
+||business.facebook.com^
+||l.facebook.com^
+||lm.facebook.com^
+||h.facebook.com^
+
+# ==========================================
+# FACEBOOK - Content Delivery Networks
+# ==========================================
+||fbcdn.net^
+||fbcdn.com^
+||facebook.net^
+||fbsbx.com^
+||xx.fbcdn.net^
+||scontent.xx.fbcdn.net^
+||static.xx.fbcdn.net^
+||video.xx.fbcdn.net^
+||external.xx.fbcdn.net^
+||scontent.fcdn.net^
+||staticxx.facebook.com^
+
+# ==========================================
+# FACEBOOK - Tracking & Analytics
+# ==========================================
+||pixel.facebook.com^
+||an.facebook.com^
+||analytics.facebook.com^
+||pixel.fb.com^
+||b-api.facebook.com^
+||b-graph.facebook.com^
+||edge-mqtt.facebook.com^
+||mqtt.facebook.com^
+||mqtt-mini.facebook.com^
+||edge-chat.facebook.com^
+||gateway.facebook.com^
+||rupload.facebook.com^
+||upload.facebook.com^
+
+# ==========================================
+# FACEBOOK - Connect & APIs
+# ==========================================
+||connect.facebook.com^
+||connect.facebook.net^
+||graph.facebook.com^
+||api.facebook.com^
+||developer.facebook.com^
+||apps.facebook.com^
+
+# ==========================================
+# FACEBOOK - Link Shorteners
+# ==========================================
+||fburl.com^
+||fb.me^
+||fb.watch^
+
+# ==========================================
+# FACEBOOK - Messenger
+# ==========================================
+||messenger.com^
+||www.messenger.com^
+||m.messenger.com^
+||m.me^
+||web.messenger.com^
+||secure.messenger.com^
+
+# ==========================================
+# FACEBOOK - Workplace
+# ==========================================
+||work.facebook.com^
+||workplace.com^
+||work.workplace.com^
+||www.workplace.com^
+
+# ==========================================
+# FACEBOOK - Additional Domains
+# ==========================================
+||facebookmail.com^
+||facebook.co^
+||facebook.de^
+||facebook.fr^
+||facebook.it^
+||facebook.es^
+||facebook.pl^
+||facebook.se^
+||facebook.hu^
+||facebook.nl^
+||facebook.br^
+||facebook.in^
+
+# ==========================================
+# INSTAGRAM - Primary Domains
+# ==========================================
+||instagram.com^
+||www.instagram.com^
+||m.instagram.com^
+||i.instagram.com^
+||business.instagram.com^
+||help.instagram.com^
+||l.instagram.com^
+
+# ==========================================
+# INSTAGRAM - Content Delivery
+# ==========================================
+||cdninstagram.com^
+||igcdn.com^
+||scontent-lga3-1.cdninstagram.com^
+||scontent.cdninstagram.com^
+||igsonar.com^
+
+# ==========================================
+# INSTAGRAM - Link Shorteners
+# ==========================================
+||ig.me^
+||instagr.am^
+
+# ==========================================
+# WHATSAPP - Primary Domains
+# ==========================================
+||whatsapp.com^
+||www.whatsapp.com^
+||web.whatsapp.com^
+||m.whatsapp.com^
+||business.whatsapp.com^
+
+# ==========================================
+# WHATSAPP - Infrastructure
+# ==========================================
+||whatsapp.net^
+||wa.me^
+||static.whatsapp.net^
+||media-mxp1-1.cdn.whatsapp.net^
+||mmg.whatsapp.net^
+||v.whatsapp.net^
+||pps.whatsapp.net^
+||chat.whatsapp.com^
+||faq.whatsapp.com^
+||api.whatsapp.com^
+||crashlogs.whatsapp.net^
+
+# ==========================================
+# META/FACEBOOK - Corporate & Tracking
+# ==========================================
+||meta.com^
+||about.meta.com^
+||atdmt.com^
+||atlassolutions.com^
+||facebook-hardware.com^
+
+# ==========================================
+# OCULUS/META VR (Facebook-owned)
+# ==========================================
+||oculus.com^
+||www.oculus.com^
+||oculuscdn.com^
+||oculus.net^
+||secure.oculus.com^
+
+# ==========================================
+# END OF BLOCKLIST
+# ==========================================
+# Total domains blocked: 130+
+# To use with AdGuard Home:
+# 1. Save this file to GitHub (raw URL)
+# 2. Go to Filters → DNS blocklists
+# 3. Add custom list with your raw GitHub URL
+# 4. Click "Save" and update filters
+#
+# AdGuard Syntax Used:
+# || = matches domain and all subdomains
+# ^ = separator character (end of domain)
+# ==========================================
