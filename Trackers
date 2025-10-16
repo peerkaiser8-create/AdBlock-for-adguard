@@ -1,8 +1,8 @@
-! Title: Privacy Badger Tracker Blocklist
-! Description: Converted from Privacy Badger JSON to AdGuard syntax
-! Version: 1.0
-! Source: Privacy Badger
-!
+# Title: Privacy Badger Tracker Blocklist
+# Description: Converted from Privacy Badger JSON to AdGuard syntax
+# Version: 1.0
+# Source: Privacy Badger
+# kaizz
 ||00px.net^
 ||06yahoo.com^
 ||0c9747d501.com^
